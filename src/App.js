@@ -13,6 +13,7 @@ import { useMachine } from '@xstate/react';
 
 
 // this is a new feature
+// this is master changes
 
 const videoMachine = Machine({
   id: 'videoMachine',
