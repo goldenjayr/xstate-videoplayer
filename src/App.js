@@ -4,17 +4,6 @@ import myVideo from './warrior-is-a-child.mp4';
 import { Machine, assign } from 'xstate';
 import { useMachine } from '@xstate/react';
 
-// hello this is a new commit
-// hello this is my second commit rebase it
-
-// added new remote commit hereeeeee
-// this is my local commit and modified this by another and then also updated by the remote
-// this is my local commit and modified this by another and then changed here also by local
-
-
-// this is a new feature
-// this is master changes
-// hello new feature change
 
 const videoMachine = Machine({
   id: 'videoMachine',
