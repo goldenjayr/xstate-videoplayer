@@ -5,6 +5,7 @@ import { Machine, assign } from 'xstate';
 import { useMachine } from '@xstate/react';
 
 // hello this is a new commit
+// hello this is my second commit rebase it
 
 const videoMachine = Machine({
   id: 'videoMachine',
