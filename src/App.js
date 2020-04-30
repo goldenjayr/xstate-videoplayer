@@ -4,6 +4,8 @@ import myVideo from './warrior-is-a-child.mp4';
 import { Machine, assign } from 'xstate';
 import { useMachine } from '@xstate/react';
 
+// hello this is a new commit
+
 const videoMachine = Machine({
   id: 'videoMachine',
   initial: 'loading',
