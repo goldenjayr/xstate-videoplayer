@@ -4,6 +4,8 @@ import myVideo from './warrior-is-a-child.mp4';
 import { Machine, assign } from 'xstate';
 import { useMachine } from '@xstate/react';
 
+//final change in remote
+
 
 const videoMachine = Machine({
   id: 'videoMachine',
