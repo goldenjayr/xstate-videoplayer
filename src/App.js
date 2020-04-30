@@ -11,6 +11,9 @@ import { useMachine } from '@xstate/react';
 // this is my local commit and modified this by another and then also updated by the remote
 // this is my local commit and modified this by another and then changed here also by local
 
+
+// this is a new feature
+
 const videoMachine = Machine({
   id: 'videoMachine',
   initial: 'loading',
