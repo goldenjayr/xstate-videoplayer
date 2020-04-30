@@ -7,6 +7,8 @@ import { useMachine } from '@xstate/react';
 // hello this is a new commit
 // hello this is my second commit rebase it
 
+// added new remote commit hereeeeee
+
 const videoMachine = Machine({
   id: 'videoMachine',
   initial: 'loading',
